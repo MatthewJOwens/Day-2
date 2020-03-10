@@ -1,0 +1,41 @@
+body {
+  font-family: arial;
+  margin: 0px;
+}
+
+header {
+  background-color: #1c4587;
+  color: white;
+  padding: 10px;
+}
+
+footer {
+  padding: 40px;
+  background-color: #1c4587;
+}
+
+header div {
+  display: flex;
+}
+
+.header-class {
+  justify-content: center;
+}
+
+.main-content {
+  justify-content: center;
+}
+
+.lorem-header {
+  border-top: 20px solid lightblue;
+  margin: 40px;
+  ;
+}
+
+.lorem {
+  margin: 20px;
+}
+
+.d-flex {
+  display: flex;
+}
