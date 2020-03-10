@@ -26,14 +26,41 @@ header div {
   justify-content: center;
 }
 
+.left-content {
+  width: 50%;
+}
+
 .lorem-header {
   border-top: 20px solid lightblue;
-  margin: 40px;
+  margin: 40px 0px 20px 0px;
   ;
 }
 
 .lorem {
   margin: 20px;
+}
+
+.lorem p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.actually-image {
+  background-color: #1c4587;
+  color: white;
+  ;
+}
+
+.image-text {
+  width: 200px;
+  height: 12em;
+  white-space: pre-wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.image-text:hover {
+  overflow: visible
 }
 
 .d-flex {
