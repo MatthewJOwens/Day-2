@@ -59,6 +59,10 @@ header div {
   color: white;
   padding: 20px;
   text-align: center;
+  text-justify: center;
+  margin-top: 50px;
+  height: 100px;
+  width: 200px;
 }
 
 .image-caption {
