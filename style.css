@@ -61,15 +61,20 @@ header div {
   text-align: center;
 }
 
-.image-text {
-  width: 200px;
-  height: 7em;
-  white-space: pre-wrap;
+.image-caption {
+  /* width: 200px;
+  height: 3rem;
+  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   padding: 20px;
-  font-size: 1.3rem;
   margin: 0;
+  background: white;
+  resize: horizontal; */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
 }
 
 .image-text:hover {
