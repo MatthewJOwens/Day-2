@@ -12,6 +12,9 @@ header {
 footer {
   padding: 40px;
   background-color: #1c4587;
+  position: fixed;
+  bottom: 0px;
+  width: 100%
 }
 
 header div {
@@ -28,6 +31,7 @@ header div {
 
 .left-content {
   width: 50%;
+  margin: 0px 200px 0px 0px;
 }
 
 .lorem-header {
@@ -45,18 +49,27 @@ header div {
   padding: 0px;
 }
 
+.right-content {
+  justify-content: center;
+  width: 20%;
+}
+
 .actually-image {
   background-color: #1c4587;
   color: white;
-  ;
+  padding: 20px;
+  text-align: center;
 }
 
 .image-text {
   width: 200px;
-  height: 12em;
+  height: 7em;
   white-space: pre-wrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  padding: 20px;
+  font-size: 1.3rem;
+  margin: 0;
 }
 
 .image-text:hover {
